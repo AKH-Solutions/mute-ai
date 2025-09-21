@@ -1,0 +1,47 @@
+### Health Check
+GET http://localhost:8000/health
+
+###
+
+### Process Frame - Test Image 1
+POST http://localhost:8000/process_frame
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="image"; filename="Screenshot 2025-09-20 at 9.26.34 PM.png"
+Content-Type: image/png
+
+< ../test_images/Screenshot 2025-09-20 at 9.26.34 PM.png
+------boundary--
+
+###
+
+### Process Frame - Test Image 2
+POST http://localhost:8000/process_frame
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="image"; filename="Screenshot 2025-09-20 at 9.28.30 PM.png"
+Content-Type: image/png
+
+< ../test_images/Screenshot 2025-09-20 at 9.28.30 PM.png
+------boundary--
+
+###
+
+### Process Frame with Client ID
+POST http://localhost:8000/process_frame
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="image"; filename="Screenshot 2025-09-20 at 9.26.34 PM.png"
+Content-Type: image/png
+
+< ../test_images/Screenshot 2025-09-20 at 9.26.34 PM.png
+------boundary
+Content-Disposition: form-data; name="client_id"
+
+esp32_01
+------boundary--
+
+###

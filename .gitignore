@@ -128,3 +128,6 @@ dmypy.json
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Database
+mute_ai.db

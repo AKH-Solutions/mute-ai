@@ -1,9 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+pyatv
 torch
-open-clip-torch
+open_clip_torch
+pillow
 opencv-python
-Pillow
 numpy
-mlx-vlm
-pygetwindow
-mss
-pyobjc

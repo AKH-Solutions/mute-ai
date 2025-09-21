@@ -1,0 +1,9 @@
+torch
+open-clip-torch
+opencv-python
+Pillow
+numpy
+mlx-vlm
+pygetwindow
+mss
+pyobjc
